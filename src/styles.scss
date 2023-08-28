@@ -1,0 +1,98 @@
+/* Import selected Gotham font variations using @font-face */
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../assets/fonts/GothamBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GothamMedium_1';
+    src: url('../assets/fonts/GothamMedium_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GothamBookItalic';
+    src: url('../assets/fonts/GothamBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  /* ...rest of your styles */
+  
+  /* Apply global styles */
+  
+  body * {
+    font-family: 'GothamBook', sans-serif;
+    margin: 0;
+    outline: none;
+  }
+  
+  /* Define font classes for example usage */
+  
+  .font-example {
+    margin: 20px;
+  }
+  
+  .font-example h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .font-example p {
+    font-size: 16px;
+  }
+  
+  .gotham-book {
+    font-family: 'GothamBook', sans-serif;
+  }
+  
+  .gotham-medium-1 {
+    font-family: 'GothamMedium_1', sans-serif;
+  }
+  
+  .gotham-book-italic {
+    font-family: 'GothamBookItalic', sans-serif;
+    font-style: italic;
+  }
+  
+
+  // landrick jux
+
+  .bg-half-260 {
+    padding: 260px 0;
+    background-size: cover;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    position: relative;
+    background-position: center center;
+  }
+
+  
+.title-heading {
+  line-height: 26px;
+}
+
+.title-heading .heading {
+  font-size: 40px !important;
+  letter-spacing: 1px;
+}
+
+.title-heading .para-desc {
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .title-heading .heading {
+    font-size: 30px !important;
+  }
+  .title-heading .para-desc {
+    font-size: 15px;
+  }
+
+}
